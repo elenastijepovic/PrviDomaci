@@ -1,0 +1,68 @@
+
+body{
+  background-image: url('/assets/ski-pozadina.jpg');
+  background-position:top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  font-family: "Lucida Console", "Courier New", monospace;
+
+}
+
+form {
+    display: none;
+    position: relative;
+  }
+  input {
+    width: 100%;
+  }
+  
+  select {
+    width: 100%;
+  }
+  .btn-block{
+    width:250px;
+    height: 50px;;
+  }
+  footer{
+    background-color:rgba(43, 43, 43, 0.918); 
+  }
+
+  .btn{
+    background-color:rgba(43, 43, 43, 0.998); 
+    color:whitesmoke;
+    border:solid rgba(43, 43, 43, 0.918); 
+    border-width: 7px;
+    font-size: 13px;
+  }
+  .btn:hover{
+   
+    color:rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: bold;
+  
+  }
+  .row1 {
+   /* display: flex; */
+   /* flex-flow: row wrap; */
+    position: relative; 
+    margin-left: 100px;
+    justify-content:left;
+    flex-direction: column;
+  }
+ 
+  .button{
+    background-color:rgba(76, 133, 218, 0.918);
+    color:honeydew;
+    border:solid rgb(3, 33, 97);
+  }
+ 
+  .line{
+    display:flex;
+    border:solid rgba(255, 251, 251, 0.918); 
+    height:25px;
+    /*background-color: rgba(255, 255, 255, 0.918); */
+
+  }
